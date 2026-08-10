@@ -1,0 +1,109 @@
+@import "tailwindcss";
+@import "uniwind";
+@import "heroui-native/styles";
+
+@source './node_modules/heroui-native/lib';
+
+@layer theme {
+  :root {
+    @variant light {
+      --background: var(--white);
+      --foreground: var(--eclipse);
+      --foreground-secondary: var(--color-neutral-600);
+
+      --surface: var(--color-neutral-100);
+      --surface-foreground: var(--foreground);
+
+      --overlay: var(--white);
+      --overlay-foreground: var(--foreground);
+      --backdrop: oklch(0% 0 0 / 60%);
+
+      --muted: var(--color-neutral-500);
+      --muted-foreground: var(--color-neutral-500);
+
+      --default: var(--color-neutral-100);
+      --default-foreground: var(--eclipse);
+
+      --accent: var(--color-neutral-950);
+      --accent-foreground: var(--snow);
+
+      --brand: #123b9c;
+      --brand-foreground: #ffffff;
+
+      --field-background: var(--default);
+      --field-foreground: var(--foreground);
+      --field-placeholder: var(--muted);
+      --field-border: transparent;
+
+      --success: oklch(0.5503 0.1244 153.56);
+      --success-foreground: var(--snow);
+
+      --warning: oklch(0.7186 0.1521 84.5);
+      --warning-foreground: var(--eclipse);
+
+      --danger: oklch(0.6259 0.1908 29.19);
+      --danger-foreground: var(--snow);
+
+      --segment: var(--color-neutral-200);
+      --segment-foreground: var(--eclipse);
+
+      --border: var(--color-neutral-200);
+      --divider: var(--color-neutral-400);
+      --link: var(--brand);
+    }
+
+    @variant dark {
+      --background: var(--black);
+      --foreground: var(--snow);
+      --foreground-secondary: var(--color-neutral-400);
+
+      --surface: var(--eclipse);
+      --surface-foreground: var(--foreground);
+
+      --overlay: var(--color-neutral-800);
+      --overlay-foreground: var(--foreground);
+      --backdrop: oklch(0% 0 0 / 60%);
+
+      --muted: var(--color-neutral-400);
+      --muted-foreground: var(--color-neutral-400);
+
+      --default: var(--color-neutral-900);
+      --default-foreground: var(--snow);
+
+      --accent: var(--color-neutral-50);
+      --accent-foreground: var(--eclipse);
+
+      --brand: #5b8cff;
+      --brand-foreground: #04102e;
+
+      --field-background: var(--default);
+      --field-foreground: var(--foreground);
+      --field-placeholder: var(--muted);
+      --field-border: transparent;
+
+      --success: oklch(0.6402 0.1503 154.2);
+      --success-foreground: var(--eclipse);
+
+      --warning: oklch(0.8355 0.1543 85.2);
+      --warning-foreground: var(--eclipse);
+
+      --danger: oklch(0.6598 0.1835 27.5);
+      --danger-foreground: var(--snow);
+
+      --segment: var(--color-neutral-800);
+      --segment-foreground: var(--foreground);
+
+      --border: var(--color-neutral-800);
+      --divider: var(--color-neutral-600);
+      --link: var(--brand);
+    }
+  }
+}
+
+@theme inline {
+  --color-muted-foreground: var(--muted-foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --font-title: "BricolageGrotesque_800ExtraBold";
+}

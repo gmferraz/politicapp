@@ -1,0 +1,13 @@
+packages:
+  - apps/*
+  - packages/*
+catalog:
+  typescript: ^5.9.3
+  zod: ^4.2.1
+  heroui-native: ^1.0.5
+  uniwind: ^1.10.0
+onlyBuiltDependencies:
+  - "@sentry/cli"
+  - esbuild
+  - sharp
+  - unrs-resolver

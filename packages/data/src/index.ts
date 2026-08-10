@@ -1,0 +1,7 @@
+export * from "./parlamentar"
+export * from "./despesa"
+export * from "./votacao"
+export * from "./proposicao"
+export * from "./eleicao"
+export * from "./estatico"
+export * from "./uf"
