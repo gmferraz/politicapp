@@ -12,7 +12,7 @@ import { buscarJson } from "./http"
 
 const BASE =
   process.env.EXPO_PUBLIC_DADOS_URL ??
-  "https://gmferraz.github.io/politicapp"
+  "https://politicapp-br.github.io/politicapp"
 
 const url = (nome: string) => `${BASE}/${DATA_VERSION}/${nome}.json`
 
