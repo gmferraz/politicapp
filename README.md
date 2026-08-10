@@ -2,12 +2,6 @@
 
 App gratuito e de código aberto que agrega dados da política brasileira e mostra de um jeito simples para o cidadão comum.
 
-Sem anúncios, sem login, sem nota editorial. Todo dado linka a fonte oficial.
-
-- **Escopo do produto**: [`ESCOPO.md`](ESCOPO.md)
-- **Escopo técnico**: [`ESCOPO-TECNICO.md`](ESCOPO-TECNICO.md)
-- **Pesquisa de fontes e concorrentes**: [`docs/`](docs/)
-
 ## Como funciona
 
 Três camadas de dados, sem servidor próprio:

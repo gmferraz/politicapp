@@ -8,3 +8,8 @@ ios/
 .env
 .env.local
 .DS_Store
+
+# documentos internos
+ESCOPO.md
+ESCOPO-TECNICO.md
+docs/
